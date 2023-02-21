@@ -1,5 +1,4 @@
 .header-top {
-    border: 1px solid;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -14,15 +13,14 @@
     flex-grow: 20;
 }
 .nav-items a {
-    border: 1px solid red;
     margin: 0 0.5em;
     text-decoration: none;
 }
 .header-title {
-    border: 1px solid blue;
     float: left;
 }
 .header-bot {
+    border: 1px solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,6 +33,7 @@
     border-radius: 100%;
 }
 .header-box {
+    border: 1px solid red;
     display: flex;
     flex-direction: row;
 }

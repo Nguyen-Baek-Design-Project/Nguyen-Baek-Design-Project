@@ -37,3 +37,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
 }
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+}

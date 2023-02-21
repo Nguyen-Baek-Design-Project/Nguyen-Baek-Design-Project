@@ -1,0 +1,39 @@
+.header-top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header-logo {
+    flex-grow: 0;
+}
+.header-title {
+    flex-grow: 1;
+}
+.nav-items {
+    flex-grow: 20;
+}
+.nav-items a {
+    margin: 0 0.5em;
+    text-decoration: none;
+}
+.header-title {
+    float: left;
+}
+.header-bot {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-box p{
+    border: 1px solid;
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+}
+.header-box {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+}

@@ -9,7 +9,16 @@ body {
     align-items: center;
     margin: 0.5em;
 }
-
+.main-title {
+    font-family: 'Anton', sans-serif;
+}
+.main-title p:nth-child(1){
+    font-size:4em;
+}
+.main-title p:nth-child(2){
+    font-size:2.5em;
+    margin:1em 0;
+}
 .header-logo {
     flex-grow: 0;
 }
@@ -111,6 +120,9 @@ a {
     }
     .photo-box {
         width: 100%;
+    }
+    .mx-3 {
+        display:none;
     }
 }
 .last-item {

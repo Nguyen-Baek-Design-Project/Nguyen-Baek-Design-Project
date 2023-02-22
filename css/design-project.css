@@ -63,3 +63,26 @@ a {
 .photo-box {
     margin: 1em 0;
 }
+.photo-icon a{
+    color: black;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.photo-icon a:nth-child(1) {
+    background-color: #E6563B;
+}
+.photo-icon a:nth-child(2) {
+    background-color: #EB9D3A;
+}
+.photo-icon a:nth-child(3) {
+    background-color: #7CB06C;
+}
+.photo-icon a:nth-child(4) {
+    background-color: #00ABA9;
+}
+.last-item {
+    margin: 1em 0;
+}

@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@200&family=Montserrat&display=swap');
 body {
     background-color: #F0F0F0;
+    font-family: 'Abel', sans-serif;
+
 }
 .header-top {
     display: flex;
@@ -17,13 +20,17 @@ body {
 }
 .nav-items a {
     margin: 0 0.5em;
+    color: #4b4949;
+}
+a {
     text-decoration: none;
 }
 .header-title {
     float: left;
 }
 .header-box p{
-    border: 1px solid;
+    color: white;
+    border: 0.5em solid white;
     width: 100px;
     height: 100px;
     border-radius: 100%;
@@ -31,6 +38,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.header-box p:nth-child(1) {
+    background-color: #E6563B;
+}
+.header-box p:nth-child(2) {
+    background-color: #EB9D3A;
+}
+.header-box p:nth-child(3) {
+    background-color: #7CB06C;
+}
+.header-box p:nth-child(4) {
+    background-color: #00ABA9;
 }
 .header-box {
     display: flex;
@@ -42,6 +61,5 @@ body {
     flex-wrap: wrap;
 }
 .photo-box {
-    display:flex;
-    flex-direction:row;
+    margin: 1em 0;
 }

@@ -74,6 +74,7 @@ a {
     width: 18px;
     color: black;
     font-family: 'Anton', sans-serif;
+    border-radius: 100%;
 }
 .icon a:nth-child(1){
     background-color: #E6563B;
@@ -101,4 +102,11 @@ a {
     .photo-box {
         width: 100%;
     }
+}
+.last-item {
+    margin:2em;
+}
+.items {
+    font-family: 'Anton', sans-serif;;
+
 }

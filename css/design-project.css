@@ -120,7 +120,6 @@ a {
 }
 /*this is medium screen size*/
 @media only screen and (max-width: 767px){
-
     .section-2 {
         display: none;
     }

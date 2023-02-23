@@ -9,12 +9,14 @@
 </head>
 <body>
   <header>
+<!-- navbar with dropdown button section begin here-->
       <nav class="navbar navbar-expand-md navbar-light">
           <div class="container-fluid">
               <img src="assets/logo.png" alt="this is logo" width="105px" height="105px" class="header-logo">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
               </button>
+<!--              4 colors circles div begin here-->
               <div class="collapse navbar-collapse" id="navbarNav">
                   <h1 class="mx-3">codeup design</h1>
                   <ul class="navbar-nav mx-2">
@@ -34,25 +36,31 @@
               </div>
           </div>
       </nav>
+<!--   ^^^ navbar with dropdown button section end here ^^^-->
+<!--      big title with color circles begin here-->
       <div class="main-title text-center my-5">
-          <p>VISUAL DESIGN & WEB DEVELOPMENT</p>
-          <p>FROM PARK CITY, UTAH</p>
+          <p class="display-3">VISUAL DESIGN & WEB DEVELOPMENT</p>
+          <p class="display-6 my-5">FROM PARK CITY, UTAH</p>
       </div>
-      <div class="header-box">
+      <div class="header-box d-flex justify-content-center flex-wrap my-5">
           <p>DESIGN</p>
           <p>DEVELOP</p>
           <p>SUPOPRT</p>
           <p>HOST</p>
       </div>
+<!-- ^^^ big title with color circles end here^^^ -->
   </header>
+<!--  hr line seperated between header and body section begin here-->
 <hr style="width: 75%; margin-left: auto; margin-right: auto">
+<!--  Section #1 with 2 column lg of 7 & 5 begin here-->
 <section class="container">
     <div class="row">
-<!--        this is column 1 below-->
+<!--  the "SELECTED WORK" section begin here-->
         <div class="col-lg-7 mx-auto">
             <h6 class="text-center my-3" >SELECTED WORK</h6>
-            <div class="photos my-5" width="100%">
-                <div class="photo-box">
+            <div class="photos my-5 d-flex justify-content-center flex-wrap" width="100%">
+<!--                first div of photo box in the "SELECTED WORK" section-->
+                <div class="photo-box ">
                     <img src="assets/images/apple-ipad.jpg" style="border: 0.5em solid #E6E6E6;" alt="photo">
                     <div class="photo-title">
                         <h6>FEATURED PROJECT</h6>
@@ -64,6 +72,7 @@
                         </div>
                     </div>
                 </div>
+<!--                second div of photo box in the "SELECTED WORK" section-->
                 <div class="photo-box">
                     <img src="assets/images/macbook.jpg" style="border: 0.5em solid #E6E6E6;" alt="photo">
                     <div class="photo-title">
@@ -76,6 +85,7 @@
                         </div>
                     </div>
                 </div>
+<!--                third div of photo box in the "SELECTED WORK" section-->
                 <div class="photo-box">
                     <img src="assets/images/man.jpg" style="border: 0.5em solid #E6E6E6;" alt="photo">
                     <div class="photo-title">
@@ -88,6 +98,7 @@
                         </div>
                     </div>
                 </div>
+<!--                fourth div of photo box in the "SELECTED WORK" section-->
                 <div class="photo-box">
                     <img src="assets/images/security.jpg" style="border: 0.5em solid #E6E6E6;" alt="photo">
                     <div class="photo-title">
@@ -102,23 +113,27 @@
                 </div>
             </div>
         </div>
-<!--        this is column 2 below-->
+<!--   in the "THE LAST" section begin here-->
         <div class="col-lg-5 mx-auto section-2">
             <h6 class="text-center my-3">THE LAST</h6>
             <div class="items">
+<!--                first div of photo box in the "THE LAST" section-->
             <div class="d-flex last-item">
                 <img src="assets/images/mobile-phone.jpg" class="mx-3" width="30%" height="auto"  alt="">
                 <h5>THE ADMIN BAR AND ABSOLUTE POSITIONING</h5>
             </div>
+<!--                second div of photo box in the "THE LAST" section-->
             <div class="d-flex last-item">
                 <img src="assets/images/head.jpg" class="mx-3" width="30%" height="auto" alt="">
                 <h5>NIBBLER AWESOME WEBSITE TESTING</h5>
             </div>
+<!--                third div of photo box in the "THE LAST" section-->
             <div class="d-flex last-item">
                 <img src="assets/images/ipad.jpg" class="mx-3" width="30%" height="auto" alt="">
                 <h5>HOW TO GET GOOLE TO LIKE YOU</h5>
             </div>
             </div>
+<!--            paragragh div in the "THE LAST" section -->
             <div class="last-item">
                 <H6 class="mx-3">LAST TWEET</H6>
                 <p class="mx-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque aut consequatur culpa cumque deleniti earum laudantium molestiae nam neque numquam, possimus, sapiente sequi ullam.</p>
@@ -126,6 +141,7 @@
         </div>
     </div>
 </section>
+<!--  ^^^ first section end here ^^^-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>

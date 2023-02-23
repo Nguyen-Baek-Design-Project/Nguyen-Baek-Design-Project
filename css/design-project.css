@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 body {
     background-color: #F0F0F0;
     font-family: 'Abel', sans-serif;
@@ -111,10 +112,15 @@ a {
     width: 100%;
     height: auto;
 }
-@media only screen and (max-width: 767px){
+/*this is small screen size*/
+@media only screen and (max-width: 576px) {
     hr {
         display: none;
     }
+}
+/*this is medium screen size*/
+@media only screen and (max-width: 767px){
+
     .section-2 {
         display: none;
     }
@@ -123,6 +129,12 @@ a {
     }
     .mx-3 {
         display:none;
+    }
+}
+/*this is Large screen size*/
+@media only screen and (max-width: 992px) {
+    .section-2 {
+        display: none;
     }
 }
 .last-item {
